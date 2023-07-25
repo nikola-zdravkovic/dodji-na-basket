@@ -1,0 +1,35 @@
+{
+  "name": "dodji-na-basket",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.88",
+    "@mui/material": "^5.8.6",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@mui/styles": "^5.8.6",
+    "@svgr/webpack": "^6.2.1",
+    "next": "12.2.0",
+    "polished": "^4.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-slick": "^0.29.0",
+    "recompose": "^0.30.0",
+    "sharp": "^0.30.7",
+    "slick-carousel": "^1.8.1",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0"
+  }
+}

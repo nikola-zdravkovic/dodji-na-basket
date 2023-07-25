@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@components": ["src/components/index"],
+            "@components/*": ["src/components/*"],
+            "@theme": ["src/theme/theme"],
+            "@icons": ["src/components/Icons/index"],
+            "@icons/*": ["src/components/Icons/*"],
+            "@public": ["public/index"],
+            "@public/*": ["public/*"],
+            "@sections": ["src/sections/index"],
+            "@sections/*": ["src/sections/*"]
+        }
+    }
+}
