@@ -39,7 +39,7 @@ const SEO = (props) => {
             <meta property="og:region"           content="Zaječar"/>
             <meta property="og:postal-code"      content="11000"/>
             <meta property="og:country-name"     content="RS"/>
-            <meta property="og:email"            content="contact@dodjinabakset.com"/>
+            <meta property="og:email"            content="dodjinabasket23@gmail.com"/>
 
             {/* <!-- Twitter Meta Tags. --> */}
             <meta name="twitter:card" content="summary" />

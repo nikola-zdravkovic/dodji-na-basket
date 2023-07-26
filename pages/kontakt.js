@@ -32,7 +32,7 @@ export default function Kontakt() {
                                 lineHeight: "40px",
                             },
                         }}>
-                        EMAIL: <a href="mailto:contact@dodjinabasket.com">contact@dodjinabasket.com</a>
+                        EMAIL: <a href="mailto:dodjinabasket23@gmail.com">dodjinabasket23@gmail.com</a>
                     </Typography>
                     <Typography
                         sx={{
