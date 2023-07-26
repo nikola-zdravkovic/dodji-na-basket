@@ -23,7 +23,7 @@ export default function ONama() {
                 <Grid item xs={2} />
                 <Grid item xs={10}>
                     <Typography sx={{ mb: "24px" }}>
-                        &quot;Dođi na basket - K3&quot; je kreativni i inovativni 3x3 turnir koji
+                        &quot;Dođi na basket K3 - Mozzart&quot; je kreativni i inovativni 3x3 turnir koji
                         želi da unapredi sportsku scenu u Zaječaru.
                     </Typography>
                     <Typography sx={{ mb: "24px" }}>
@@ -132,7 +132,7 @@ export default function ONama() {
                             <br />
                             SVOJU EKIPU?
                         </Typography>
-                        <Button href="/prijava" variant="contained" color="primary">
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSf67Zllal5NWsLmya_nOv8NniJVD8dxoZHfXB3EQyJ8rdwdog/viewform" target="_blank" variant="contained" color="primary">
                             PRIJAVA
                         </Button>
                     </Box>

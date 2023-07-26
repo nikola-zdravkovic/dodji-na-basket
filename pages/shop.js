@@ -6,24 +6,24 @@ import Image from "next/image";
 export default function Shop() {
     const isDesktop = useMediaQuery((theme) => theme.breakpoints.up("lg"));
 
-    return (
-        <DefaultLayout>
-            <Grid container>
-                <Grid item xs={12}>
-                    <Typography sx={{ mt: "56px", mb: "24px" }} variant="hero">
-                        Comming soon :)
-                    </Typography>
-                    <Typography sx={{ mb: "24px" }}>
-                        Prijava za kupovinu majica će biti otvorene od 22.07 i trajaće do 25.07.
-                    </Typography>
-                    <Button href="/" variant="contained" color="primary">
-                        Nazad na početnu
-                    </Button>
-                </Grid>
-            </Grid>
-        </DefaultLayout>
-    );
-    
+    // return (
+    //     <DefaultLayout>
+    //         <Grid container>
+    //             <Grid item xs={12}>
+    //                 <Typography sx={{ mt: "56px", mb: "24px" }} variant="hero">
+    //                     Comming soon :)
+    //                 </Typography>
+    //                 <Typography sx={{ mb: "24px" }}>
+    //                     Prijava za kupovinu majica će biti otvorene od 22.07 i trajaće do 25.07.
+    //                 </Typography>
+    //                 <Button href="/" variant="contained" color="primary">
+    //                     Nazad na početnu
+    //                 </Button>
+    //             </Grid>
+    //         </Grid>
+    //     </DefaultLayout>
+    // );
+
     return (
         <DefaultLayout
             ContainerProps={{
@@ -54,7 +54,7 @@ export default function Shop() {
                         }}>
                         <Image
                             objectFit={isDesktop ? "contain" : "cover"}
-                            src="/images/shop/crna-objava01.png"
+                            src="/images/shop/dodjinabasket2.jpg"
                             layout="fill"
                             alt="majica-crna"
                         />
@@ -86,7 +86,7 @@ export default function Shop() {
                         }}>
                         <Image
                             layout="fill"
-                            src="/images/shop/bela-objava01.png"
+                            src="/images/shop/dodjinabasket4.jpg"
                             objectFit="contain"
                             alt="majica-bela-front-and-back"
                         />
@@ -155,7 +155,7 @@ export default function Shop() {
                         <Image
                             objectFit={isDesktop ? "contain" : "cover"}
                             objectPosition={isDesktop ? "right" : "center"}
-                            src="/images/shop/crna-objava06.png"
+                            src="/images/shop/dodjinabasket3.jpg"
                             layout="fill"
                             alt="majica-crna-model"
                         />
@@ -214,7 +214,7 @@ export default function Shop() {
                         }}>
                         <Image
                             objectFit="contain"
-                            src="/images/shop/bela-objava03.png"
+                            src="/images/shop/dodjinabasket1.jpg"
                             layout="fill"
                             alt="majica-bela-back"
                         />
@@ -236,7 +236,8 @@ export default function Shop() {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item xs={12} md={6} sx={{ px: { xs: 0, lg: "16px" } }}>
+
+                {/* <Grid item xs={12} md={6} sx={{ px: { xs: 0, lg: "16px" } }}>
                     <Box
                         sx={{
                             width: "100%",
@@ -269,7 +270,7 @@ export default function Shop() {
                             alt="majica-bela-front"
                         />
                     </Box>
-                </Grid>
+                </Grid> */}
 
                 {/* START :: CTA */}
                 <Grid item xs={12}>

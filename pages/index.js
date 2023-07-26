@@ -86,7 +86,7 @@ export default function Home() {
                                     DOĐI NA<br/>BASKET
                                 </Typography>
                                 <Typography>
-                                    &quot;Dođi na basket - K3&quot; je kreativni i inovativni 3x3 turnir
+                                    &quot;Dođi na basket K3 - Mozzart&quot; je kreativni i inovativni 3x3 turnir
                                     koji želi da unapredi sportsku scenu u Zaječaru.
                                 </Typography>
                             </Grid>
@@ -234,7 +234,7 @@ export default function Home() {
                             }}>
                             300.000 RSD
                         </Typography>
-                        {/* <Box sx={{ mt: "24px" }}>
+                        <Box sx={{ mt: "24px" }}>
                             <Box
                                 sx={{
                                     display: "flex",
@@ -250,17 +250,17 @@ export default function Home() {
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        70.000rsd
+                                        100.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        35.000rsd
+                                        50.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        15.000rsd
+                                        25.000rsd
                                     </Typography>
                                 </Box>
                             </Box>
@@ -280,17 +280,17 @@ export default function Home() {
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        25.000rsd
+                                        30.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        12.000rsd
+                                        15.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        6.000rsd
+                                        7.000rsd
                                     </Typography>
                                 </Box>
                             </Box>
@@ -303,11 +303,11 @@ export default function Home() {
                                 </Box>
                                 <Box sx={{ flex: 3 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        Robne nagrade, pehari i medalje
+                                        Robne nagrade, pehari, medalje i diplome
                                     </Typography>
                                 </Box>
                             </Box>
-                        </Box> */}
+                        </Box>
                     </Grid>
                     {/*   END :: Section */}
                     {/*   END :: Fond */}
@@ -412,7 +412,7 @@ export default function Home() {
                                 <br />
                                 SVOJU EKIPU?
                             </Typography>
-                            <Button  href="/prijava" variant="contained" color="primary">
+                            <Button  href="https://docs.google.com/forms/d/e/1FAIpQLSf67Zllal5NWsLmya_nOv8NniJVD8dxoZHfXB3EQyJ8rdwdog/viewform" target="_blank" variant="contained" color="primary">
                                 PRIJAVA
                             </Button>
                         </Box>

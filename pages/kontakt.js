@@ -32,9 +32,7 @@ export default function Kontakt() {
                                 lineHeight: "40px",
                             },
                         }}>
-                        EMAIL:{" "}<br />
-                        <a href="mailto:contact@dodjinabasket.com">contact@dodjinabasket.com</a>{" "}<br />
-                        <a href="mailto:dodjinabasket23@gmail.com">dodjinabasket23@gmail.com</a>
+                        EMAIL: <a href="mailto:contact@dodjinabasket.com">contact@dodjinabasket.com</a>
                     </Typography>
                     <Typography
                         sx={{
@@ -132,7 +130,7 @@ export default function Kontakt() {
                             <br />
                             SVOJU EKIPU?
                         </Typography>
-                        <Button href="/prijava" variant="contained" color="primary">
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSf67Zllal5NWsLmya_nOv8NniJVD8dxoZHfXB3EQyJ8rdwdog/viewform" target="_blank" variant="contained" color="primary">
                             PRIJAVA
                         </Button>
                     </Box>

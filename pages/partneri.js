@@ -24,7 +24,7 @@ export default function Raspored() {
                     <Grid item xs={3}></Grid>
                     <Grid item xs={9}>
                         <Grid container spacing={2}>
-                            {/* <Grid
+                            <Grid
                                 item
                                 xs={12}
                                 sx={{ mb: "8px", pb: "24px", borderBottom: "1px solid #EC2027" }}>
@@ -36,17 +36,21 @@ export default function Raspored() {
                                         },
                                     }}
                                     variant="h2">
-                                    Generalni sponzor
+                                    Generalni donator
                                 </Typography>
                                 <Box sx={{ mt: "24px" }}>
-                                    <Image
-                                        src="/images/sponzori/tehnomedija.png"
-                                        width={180}
-                                        height={40}
-                                        alt="tehnomedija"
-                                    />
+                                    <Typography
+                                        sx={{
+                                            mb: "24px",
+                                            "@media screen and (min-width: 991px)": {
+                                                fontSize: "32px",
+                                            },
+                                        }}
+                                        variant="h2">
+                                        Mozzart Fondacija
+                                    </Typography>
                                 </Box>
-                            </Grid> */}
+                            </Grid>
                             <Grid item xs={12}>
                                 <Typography
                                     sx={{
@@ -56,7 +60,7 @@ export default function Raspored() {
                                         },
                                     }}
                                     variant="h2">
-                                    Pokrovitelj: Grad Zaječar
+                                    Pokrovitelj: Grad Zaječar, Sportski savez grada Zajecara
                                 </Typography>
                             </Grid>
                         </Grid>
@@ -90,7 +94,7 @@ export default function Raspored() {
                             <br />
                             SVOJU EKIPU?
                         </Typography>
-                        <Button  href="/prijava" variant="contained" color="primary">
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSf67Zllal5NWsLmya_nOv8NniJVD8dxoZHfXB3EQyJ8rdwdog/viewform" target="_blank" variant="contained" color="primary">
                             PRIJAVA
                         </Button>
                     </Box>

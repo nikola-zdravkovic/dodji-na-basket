@@ -343,7 +343,7 @@ export default function Raspored() {
                             <br />
                             SVOJU EKIPU?
                         </Typography>
-                        <Button href="/prijava" variant="contained" color="primary">
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSf67Zllal5NWsLmya_nOv8NniJVD8dxoZHfXB3EQyJ8rdwdog/viewform" target="_blank" variant="contained" color="primary">
                             PRIJAVA
                         </Button>
                     </Box>
