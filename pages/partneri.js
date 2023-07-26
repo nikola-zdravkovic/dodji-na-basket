@@ -60,7 +60,7 @@ export default function Raspored() {
                                         },
                                     }}
                                     variant="h2">
-                                    Pokrovitelj: Grad Zaječar, Sportski savez grada Zajecara
+                                    Pokrovitelj: Grad Zaječar, Sportski savez grada Zaječara
                                 </Typography>
                             </Grid>
                         </Grid>

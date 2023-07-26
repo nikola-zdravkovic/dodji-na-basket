@@ -54,7 +54,7 @@ export default function Home() {
                                         },
                                     }}>
                                     <video
-                                        src="/video/hero.mp4"
+                                        src="/video/basic.mp4"
                                         autoPlay
                                         loop
                                         muted
@@ -110,7 +110,7 @@ export default function Home() {
                                         },
                                     }}>
                                     <video
-                                        src="/video/hero.mp4"
+                                        src="/video/basic.mp4"
                                         style={{zIndex: "-1"}}
                                         autoPlay
                                         loop
