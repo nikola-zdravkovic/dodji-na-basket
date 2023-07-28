@@ -52,7 +52,7 @@ export default function Galerija() {
       <Grid item xs={12}>
         <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", width: "100%", height: "200px", background: "url(/images/hoop.png)", backgroundSize: "cover", backgroundPosition: "center", "@media screen and (min-width: 991px)": {height: "400px"}}}>
           <Typography variant="h2" sx={{mb: "24px", "@media screen and (min-width: 991px)": { fontSize: "32px"}}}>ZELIŠ DA PRIJAVIŠ<br/>SVOJU EKIPU?</Typography>
-          <Button href="/prijava"   variant="contained" color="primary">PRIJAVA</Button>
+          <Button href="https://docs.google.com/forms/d/e/1FAIpQLScVd8gCbTehy9Iy2YefxXTPx5PDY5ziHJ2REq4H06fzu-0AHA/viewform" target="_blank"   variant="contained" color="primary">PRIJAVA</Button>
         </Box>
       </Grid>
       {/*   END :: CTA */}
