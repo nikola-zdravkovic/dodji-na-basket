@@ -9,10 +9,10 @@ export default function Uskoro() {
             <Grid container>
                 <Grid item xs={12}>
                     <Typography sx={{ mt: "56px", mb: "24px" }} variant="hero">
-                        Comming soon :)
+                        Rasprodato :)
                     </Typography>
                     <Typography sx={{ mb: "24px" }}>
-                        Prijava za kupovinu majica će biti otvorene od 22.07 i trajaće do 25.07.
+                        Prijava za kupovinu majica je zatvorena.
                     </Typography>
                     <Button href="/" variant="contained" color="primary">
                         Nazad na početnu

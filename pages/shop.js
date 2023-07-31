@@ -299,7 +299,7 @@ export default function Shop() {
                             <br />
                             NAŠU MAJICU?
                         </Typography>
-                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSf67Zllal5NWsLmya_nOv8NniJVD8dxoZHfXB3EQyJ8rdwdog/viewform" target="_blank" variant="contained" color="primary">
+                        <Button href="/majice" variant="contained" color="primary">
                             KUPI MAJICU
                         </Button>
                     </Box>
