@@ -412,7 +412,7 @@ export default function Home() {
                                 <br />
                                 SVOJU EKIPU?
                             </Typography>
-                            <Button  href="https://docs.google.com/forms/d/e/1FAIpQLScVd8gCbTehy9Iy2YefxXTPx5PDY5ziHJ2REq4H06fzu-0AHA/viewform" target="_blank" variant="contained" color="primary">
+                            <Button  href="/prijava" variant="contained" color="primary">
                                 PRIJAVA
                             </Button>
                         </Box>

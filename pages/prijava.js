@@ -12,7 +12,7 @@ export default function Uskoro() {
                         Comming soon :)
                     </Typography>
                     <Typography sx={{ mb: "24px" }}>
-                        Prijava ekipa će biti dostupna od 26.07 do 04.08.
+                        Prijava ekipa je završena.
                     </Typography>
                     <Button href="/" variant="contained" color="primary">
                         Nazad na početnu
