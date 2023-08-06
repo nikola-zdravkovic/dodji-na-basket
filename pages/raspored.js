@@ -366,7 +366,7 @@ export default function Raspored() {
                                 <Typography variant="h2"></Typography>
                             </Grid>
                         </Grid> */}
-                        <Grid
+                        {/* <Grid
                             container
                             sx={{ mb: "16px", pb: "16px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
@@ -382,7 +382,7 @@ export default function Raspored() {
                                 }}>
                                 <Typography variant="h2">11.08</Typography>
                             </Grid>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
                 </Grid>
 
