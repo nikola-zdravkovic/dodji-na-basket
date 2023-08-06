@@ -186,7 +186,7 @@ export default function Raspored() {
                         </Grid>
                         <Grid container>
                             <Grid item xs={8}>
-                                <Typography>Stela/Palas</Typography>
+                                <Typography>Poslastičarnica Stela</Typography>
                                 <Typography>BTP Car Wash</Typography>
                             </Grid>
                         </Grid>
