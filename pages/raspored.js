@@ -119,7 +119,7 @@ export default function Raspored() {
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Formula</Typography>
+                                <Typography>Forma</Typography>
                                 <Typography>Auto Bane</Typography>
                             </Grid>
                         </Grid>
@@ -163,7 +163,7 @@ export default function Raspored() {
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
                                 <Typography>Poslastičarnica Stela</Typography>
-                                <Typography>Lebron i braća</Typography>
+                                <Typography>BTP Car Wash</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
@@ -175,19 +175,19 @@ export default function Raspored() {
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
                                 <Typography>Ko-šulja</Typography>
-                                <Typography>Smiley MS</Typography>
+                                <Typography>Vinoteka Vračar</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Popović</Typography>
-                                <Typography>Picerija King</Typography>
+                                <Typography>Boom Taxi</Typography>
+                                <Typography>AŠ Formula</Typography>
                             </Grid>
                         </Grid>
                         <Grid container>
                             <Grid item xs={8}>
-                                <Typography>Boom Taxi</Typography>
-                                <Typography>AŠ Formula</Typography>
+                                <Typography>Štamparija Popović</Typography>
+                                <Typography>Picerija King</Typography>
                             </Grid>
                         </Grid>
                     </Grid>
