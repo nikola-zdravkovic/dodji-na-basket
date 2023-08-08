@@ -174,8 +174,8 @@ export default function Raspored() {
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Ko-šulja</Typography>
-                                <Typography>Vinoteka Vračar</Typography>
+                                <Typography>Ko-šulja & Vinoteka Vračar</Typography>
+                                <Typography>Smiley MS</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
