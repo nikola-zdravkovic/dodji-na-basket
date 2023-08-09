@@ -51,8 +51,8 @@ export default function Raspored() {
                             container
                             sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>AŠ Stop</Typography>
                                 <Typography>Rade i ekipa</Typography>
+                                <Typography>Vodoprojekt SBS</Typography>
                             </Grid>
                             <Grid
                                 item
@@ -69,15 +69,15 @@ export default function Raspored() {
                             container
                             sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Auto Bane</Typography>
-                                <Typography>Vodoprojekt SBS</Typography>
+                                <Typography>Kućica na brdu</Typography>
+                                <Typography>Uniprom M</Typography>
                             </Grid>
                         </Grid>
                         <Grid
                             container>
                             <Grid item xs={8}>
-                                <Typography>Miševi</Typography>
-                                <Typography>Cross bike</Typography>
+                                <Typography>AŠ Stop</Typography>
+                                <Typography>Auto Bane</Typography>
                             </Grid>
                         </Grid>
                     </Grid>
@@ -95,8 +95,8 @@ export default function Raspored() {
                     <Grid item xs={9}>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Pro Glass</Typography>
-                                <Typography>Caffe Ritual Bor</Typography>
+                                <Typography>Miševi</Typography>
+                                <Typography>3+1</Typography>
                             </Grid>
                         </Grid>
                         {/* <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
@@ -107,32 +107,38 @@ export default function Raspored() {
                         </Grid> */}
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Ribarnica Sirena</Typography>
-                                <Typography>BK Schuffle</Typography>
-                            </Grid>
-                        </Grid>
-                        <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
-                            <Grid item xs={8}>
-                                <Typography>Pro Basket</Typography>
-                                <Typography>Basket</Typography>
-                            </Grid>
-                        </Grid>
-                        <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
-                            <Grid item xs={8}>
-                                <Typography>Forma</Typography>
+                                <Typography>Pro Glass</Typography>
                                 <Typography>Auto Bane</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Matalj</Typography>
-                                <Typography>Car Wash BTP</Typography>
+                                <Typography>BK Schuffle</Typography>
+                                <Typography>Matalj Vinarija</Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
+                            <Grid item xs={8}>
+                                <Typography>Miki i ekipa</Typography>
+                                <Typography>Pro Basket</Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
+                            <Grid item xs={8}>
+                                <Typography>Pariss M</Typography>
+                                <Typography>3+1</Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
+                            <Grid item xs={8}>
+                                <Typography>Ribarnica Sirena</Typography>
+                                <Typography>BTP</Typography>
                             </Grid>
                         </Grid>
                         <Grid container>
                             <Grid item xs={8}>
                                 <Typography>Extra Milk</Typography>
-                                <Typography>Miki i družina</Typography>
+                                <Typography>Basket</Typography>
                             </Grid>
                         </Grid>
                     </Grid>
@@ -150,44 +156,38 @@ export default function Raspored() {
                     <Grid item xs={9}>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Picerija King</Typography>
+                                <Typography>Flora</Typography>
                                 <Typography>Trofej Bor</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Ribarnica Sirena</Typography>
-                                <Typography>Boom Taxi</Typography>
+                                <Typography>Poslatičarnica Stela</Typography>
+                                <Typography>Smiley MS</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Poslastičarnica Stela</Typography>
+                                <Typography>Ko-šulja & Vinoteka Vračar</Typography>
                                 <Typography>BTP Car Wash</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
                                 <Typography>Salon Venedi</Typography>
-                                <Typography>Nikolas Trade</Typography>
+                                <Typography>Gostoprimnica</Typography>
                             </Grid>
                         </Grid>
                         <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
                             <Grid item xs={8}>
-                                <Typography>Ko-šulja & Vinoteka Vračar</Typography>
-                                <Typography>Smiley MS</Typography>
-                            </Grid>
-                        </Grid>
-                        <Grid container sx={{ mb: "8px", pb: "8px", borderBottom: "1px solid #EC2027" }}>
-                            <Grid item xs={8}>
-                                <Typography>Boom Taxi</Typography>
-                                <Typography>AŠ Formula</Typography>
+                                <Typography>Štamparija Popović</Typography>
+                                <Typography>Trofej Bora</Typography>
                             </Grid>
                         </Grid>
                         <Grid container>
                             <Grid item xs={8}>
-                                <Typography>Štamparija Popović</Typography>
-                                <Typography>Picerija King</Typography>
+                                <Typography>Žuto Kuče</Typography>
+                                <Typography>AŠ Formula</Typography>
                             </Grid>
                         </Grid>
                     </Grid>
