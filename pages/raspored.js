@@ -62,7 +62,7 @@ export default function Raspored() {
                                     alignItems: "center",
                                     justifyContent: "center",
                                 }}>
-                                <Typography variant="h2">18:00</Typography>
+                                <Typography variant="h2">18:30</Typography>
                             </Grid>
                         </Grid>
                         <Grid container>
