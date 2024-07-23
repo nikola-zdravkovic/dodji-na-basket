@@ -54,7 +54,7 @@ export default function Shop() {
                         }}>
                         <Image
                             objectFit={isDesktop ? "contain" : "cover"}
-                            src="/images/shop/dodjinabasket2.jpg"
+                            src="/images/shop/2024/bela1.jpeg"
                             layout="fill"
                             alt="majica-crna"
                         />
@@ -86,7 +86,7 @@ export default function Shop() {
                         }}>
                         <Image
                             layout="fill"
-                            src="/images/shop/dodjinabasket4.jpg"
+                            src="/images/shop/2024/bela2.jpeg"
                             objectFit="contain"
                             alt="majica-bela-front-and-back"
                         />
@@ -155,7 +155,7 @@ export default function Shop() {
                         <Image
                             objectFit={isDesktop ? "contain" : "cover"}
                             objectPosition={isDesktop ? "right" : "center"}
-                            src="/images/shop/dodjinabasket3.jpg"
+                            src="/images/shop/2024/crna1.jpeg"
                             layout="fill"
                             alt="majica-crna-model"
                         />
@@ -214,7 +214,7 @@ export default function Shop() {
                         }}>
                         <Image
                             objectFit="contain"
-                            src="/images/shop/dodjinabasket1.jpg"
+                            src="/images/shop/2024/crna2.jpeg"
                             layout="fill"
                             alt="majica-bela-back"
                         />
@@ -248,7 +248,7 @@ export default function Shop() {
                         }}>
                         <Image
                             objectFit="contain"
-                            src="/images/shop/crna-objava07.png"
+                            src="/images/shop/2024/crna-objava07.png"
                             layout="fill"
                             alt="majica-prisivac"
                         />
@@ -265,7 +265,7 @@ export default function Shop() {
                         }}>
                         <Image
                             objectFit="contain"
-                            src="/images/shop/bela-objava02.png"
+                            src="/images/shop/2024/bela-objava02.png"
                             layout="fill"
                             alt="majica-bela-front"
                         />
