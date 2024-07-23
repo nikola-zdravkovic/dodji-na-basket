@@ -12,7 +12,7 @@ export default function Uskoro() {
                         Comming soon :)
                     </Typography>
                     <Typography sx={{ mb: "24px" }}>
-                        Prijava ekipa je završena.
+                        Prijava ekipa će biti uskoro dostupna.
                     </Typography>
                     <Button href="/" variant="contained" color="primary">
                         Nazad na početnu

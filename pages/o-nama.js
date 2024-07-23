@@ -23,7 +23,7 @@ export default function ONama() {
                 <Grid item xs={2} />
                 <Grid item xs={10}>
                     <Typography sx={{ mb: "24px" }}>
-                        &quot;Dođi na basket K3 - Mozzart&quot; je kreativni i inovativni 3x3 turnir koji
+                        &quot;Dođi na basket K3&quot; je kreativni i inovativni 3x3 turnir koji
                         želi da unapredi sportsku scenu u Zaječaru.
                     </Typography>
                     <Typography sx={{ mb: "24px" }}>

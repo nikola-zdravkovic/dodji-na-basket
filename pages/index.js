@@ -53,12 +53,7 @@ export default function Home() {
                                             },
                                         },
                                     }}>
-                                    <video
-                                        src="/video/basic.mp4"
-                                        autoPlay
-                                        loop
-                                        muted
-                                    />
+                                    <video src="/video/vol9.mp4" autoPlay loop muted />
                                 </Box>
                             </Grid>
                             {/*   END :: Video */}
@@ -76,23 +71,31 @@ export default function Home() {
                         <>
                             <Grid item xs={12} lg={4}>
                                 <Typography
-                                    sx={{ mt: "56px", mb: "24px", whiteSpace: "nowrap", zIndex: "10", fontSize: "128px !important", lineHeight: "130px !important", color: "#fff", 
+                                    sx={{
+                                        mt: "56px",
+                                        mb: "24px",
+                                        whiteSpace: "nowrap",
+                                        zIndex: "10",
+                                        fontSize: "128px !important",
+                                        lineHeight: "130px !important",
+                                        color: "#fff",
                                         WebkitTextStrokeWidth: "1px",
                                         WebkitTextStrokeColor: "#000",
                                     }}
                                     textTransform="uppercase"
                                     variant="h1"
                                     color="#EC2027">
-                                    DOĐI NA<br/>BASKET
+                                    DOĐI NA
+                                    <br />
+                                    BASKET
                                 </Typography>
                                 <Typography>
-                                    &quot;Dođi na basket K3 - Mozzart&quot; je kreativni i inovativni 3x3 turnir
-                                    koji želi da unapredi sportsku scenu u Zaječaru.
+                                    &quot;Dođi na basket K3&quot; je kreativni i inovativni 3x3
+                                    turnir koji želi da unapredi sportsku scenu u Zaječaru.
                                 </Typography>
                             </Grid>
                             {/*   END :: Video */}
                             <Grid item xs={12} lg={8}>
-                                
                                 <Box
                                     sx={{
                                         display: "flex",
@@ -110,8 +113,8 @@ export default function Home() {
                                         },
                                     }}>
                                     <video
-                                        src="/video/basic.mp4"
-                                        style={{zIndex: "-1"}}
+                                        src="/video/vol9.mp4"
+                                        style={{ zIndex: "-1" }}
                                         autoPlay
                                         loop
                                         muted
@@ -221,7 +224,7 @@ export default function Home() {
                         </Typography>
                     </Grid>
                     {/* START :: Section */}
-                    <Grid item xs={2}  lg={4}/>
+                    <Grid item xs={2} lg={4} />
                     <Grid item xs={10} lg={8}>
                         <Typography
                             variant="hero"
@@ -232,7 +235,7 @@ export default function Home() {
                                 WebkitTextFillColor: "transparent",
                                 WebkitBackgroundClip: "text",
                             }}>
-                            300.000 RSD
+                            400.000 RSD
                         </Typography>
                         <Box sx={{ mt: "24px" }}>
                             <Box
@@ -250,17 +253,17 @@ export default function Home() {
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        100.000rsd
+                                        120.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        50.000rsd
+                                        60.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        25.000rsd
+                                        30.000rsd
                                     </Typography>
                                 </Box>
                             </Box>
@@ -280,17 +283,37 @@ export default function Home() {
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        30.000rsd
+                                        40.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        15.000rsd
+                                        20.000rsd
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        7.000rsd
+                                        10.000rsd
+                                    </Typography>
+                                </Box>
+                            </Box>
+
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    mb: "12px",
+                                    pb: "12px",
+                                    borderBottom: "1px solid #EC2027",
+                                }}>
+                                <Box sx={{ flex: 1 }}>
+                                    <Typography variant={isDesktop ? "caption" : "caption2"}>
+                                        PIONIRI
+                                    </Typography>
+                                </Box>
+                                <Box sx={{ flex: 3 }}>
+                                    <Typography variant={isDesktop ? "caption" : "caption2"}>
+                                        Robne nagrade, pehari, medalje i diplome
                                     </Typography>
                                 </Box>
                             </Box>
@@ -298,7 +321,7 @@ export default function Home() {
                             <Box sx={{ display: "flex", alignItems: "center" }}>
                                 <Box sx={{ flex: 1 }}>
                                     <Typography variant={isDesktop ? "caption" : "caption2"}>
-                                        PIONIRI
+                                        Mini basket
                                     </Typography>
                                 </Box>
                                 <Box sx={{ flex: 3 }}>
@@ -352,7 +375,8 @@ export default function Home() {
                     </Grid>
                     <Grid sx={{ position: "relative", mb: "80px" }} item xs={10}>
                         <Typography variant={isDesktop ? "h3" : "caption"} sx={{ mb: "16px" }}>
-                            Požarevačka 55, Naselje Ključ 3 <br/>19 000 Zaječar
+                            Požarevačka 55, Naselje Ključ 3 <br />
+                            19 000 Zaječar
                         </Typography>
                         <Typography color="#EC2027" variant={isDesktop ? "h2" : "h3"}>
                             22° 16’ 1.5714”E
@@ -412,7 +436,7 @@ export default function Home() {
                                 <br />
                                 SVOJU EKIPU?
                             </Typography>
-                            <Button  href="/prijava" variant="contained" color="primary">
+                            <Button href="/prijava" variant="contained" color="primary">
                                 PRIJAVA
                             </Button>
                         </Box>

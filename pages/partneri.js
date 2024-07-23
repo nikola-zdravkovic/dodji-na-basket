@@ -24,7 +24,7 @@ export default function Raspored() {
                     <Grid item xs={3}></Grid>
                     <Grid item xs={9}>
                         <Grid container spacing={2}>
-                            <Grid
+                            {/* <Grid
                                 item
                                 xs={12}
                                 sx={{ mb: "8px", pb: "24px", borderBottom: "1px solid #EC2027" }}>
@@ -50,7 +50,7 @@ export default function Raspored() {
                                         Mozzart Fondacija
                                     </Typography>
                                 </Box>
-                            </Grid>
+                            </Grid> */}
                             <Grid item xs={12}>
                                 <Typography
                                     sx={{

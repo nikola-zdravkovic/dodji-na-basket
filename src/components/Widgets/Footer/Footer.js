@@ -37,7 +37,7 @@ const Footer = (props) => {
                 </a>
             </Link>
             <Divider sx={{my: "10px", opacity: ".25"}} />
-            <Link href="/raspored">
+            <Link href="/uskoro">
                 <a>
                     <Typography>Raspored</Typography>
                 </a>

@@ -70,7 +70,7 @@ export default function Shop() {
                             },
                         }}
                         variant="hero">
-                        1.700 RSD
+                        1.900 RSD
                     </Typography>
                 </Grid>
 
@@ -299,7 +299,10 @@ export default function Shop() {
                             <br />
                             NAŠU MAJICU?
                         </Typography>
-                        <Button href="/majice" variant="contained" color="primary">
+                        {/* <Button href="/majice" variant="contained" color="primary">
+                            KUPI MAJICU
+                        </Button> */}
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSeeNS9bve4l1gYIcKO3OmfIvYTLDxpjo9s3OrA_ZiPDe2HEOA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaZ8nOKMnisG2OBcHy_JEDIUgq7n7L6MGeNh-MGIeDav4SU0F295WNiPpzw_aem_YBeBbHtJh7Sp2lSNOGhGU" target="_blank" variant="contained" color="primary">
                             KUPI MAJICU
                         </Button>
                     </Box>

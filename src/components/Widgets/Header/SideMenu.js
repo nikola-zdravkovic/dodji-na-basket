@@ -55,7 +55,7 @@ const SideMenu = (props) => {
             </a>
         </Link>
         <Divider sx={{my: "16px"}} />
-        <Link href="/raspored">
+        <Link href="/uskoro">
             <a>
                 <Typography textTransform="uppercase" variant="h2">Raspored</Typography>
             </a>
